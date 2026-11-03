@@ -1,0 +1,40 @@
+CONFIGURACIÓN MÍNIMA ANTES DE EMPEZAR
+
+1. Instalar Python 3.10 o superior.
+2. Abrir PowerShell y verificar:
+      python --version
+   o:
+      py --version
+
+3. Instalar Visual Studio Code.
+4. En VS Code instalar la extensión oficial:
+      Python (Microsoft)
+
+5. Descomprimir este ZIP.
+6. Abrir en VS Code:
+      Archivo > Abrir carpeta > KernelSimulator_SOI
+
+7. Abrir Terminal integrada:
+      Terminal > New Terminal
+
+8. Ejecutar:
+      python main.py
+   Si no funciona:
+      py main.py
+
+9. Validar automáticamente:
+      python demo_pruebas.py
+   o:
+      py demo_pruebas.py
+
+NO ES NECESARIO:
+- pip install
+- entorno virtual
+- base de datos
+- Docker
+- Ubuntu
+- librerías externas
+
+IMPORTANTE:
+Primero ejecute demo_pruebas.py. Si todas las pruebas muestran [OK],
+el entorno y el código base están funcionando correctamente.
